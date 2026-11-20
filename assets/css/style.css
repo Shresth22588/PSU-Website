@@ -3220,14 +3220,6 @@ a.psu-ct__val:hover { color: var(--ct-gold); }
   .psu-ct__map iframe { height: 240px; }
   .psu-ct__fab { width: 54px; height: 54px; right: .9rem; bottom: .9rem; }
 }
-@media (max-width: 1080px) {
-  .psu-ct__form input, .psu-ct__form select { min-height: 46px; }
-}
-@media (max-width: 360px) {
-  .psu-complete-page[data-psu-page="contact"] .psu-hero .psu-title {
-    font-size: clamp(1.7rem, 10vw, 2.2rem);
-  }
-}
 
 .section + .section {
   margin-top: 15px;
